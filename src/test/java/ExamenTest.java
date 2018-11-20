@@ -46,22 +46,4 @@ public class ExamenTest {
     public void test3(){
         assertEquals(1,cString.compareTo(str1));
     }
-    /**
-     * Test para testear que diferencia dos stings diferentes si tienen 
-     * longitud diferente
-     */
-    @Test
-    public void test4(){
-        String str1 = new String("World!");
-        assertEquals(0,cString.compareTo(str1));
-    }
-    /**
-     * Test para testear que diferencia dos stings diferentes si tienen 
-     * longitud diferente
-     */
-    @Test
-    public void test5(){
-        String str1 = new String("World!");
-        assertEquals(0,cString.compareTo(str1));
-    }
 }
